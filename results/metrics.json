@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.695,
+  "epochs_trained": 32,
+  "best_val_accuracy": 0.7200000286102295,
+  "best_val_loss": 1.5134522914886475,
+  "genres": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "n_classes": 10,
+  "n_features": 57
+}

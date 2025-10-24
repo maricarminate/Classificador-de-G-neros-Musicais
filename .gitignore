@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data (IMPORTANTE - arquivos grandes!)
+data/raw/*.wav
+data/raw/*/
+data/processed/*.npy
+data/spectrograms/
+
+# Models (IMPORTANTE - arquivos grandes!)
+models/*.h5
+models/*.keras
+models/*.pkl
+models/*.joblib
+
+# Results (opcional - você pode commitar os gráficos)
+# results/*.png
+# results/*.jpg
+# results/*.json
+
+# Audio files
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.aac
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary
+temp/
+tmp/
+*.tmp
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Environment variables
+.env
+.env.local
+
+# Streamlit
+.streamlit/

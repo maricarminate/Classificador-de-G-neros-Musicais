@@ -1,0 +1,23 @@
+{
+  "n_features": 57,
+  "n_classes": 10,
+  "genres": [
+    "blues",
+    "classical",
+    "country",
+    "disco",
+    "hiphop",
+    "jazz",
+    "metal",
+    "pop",
+    "reggae",
+    "rock"
+  ],
+  "sample_rate": 22050,
+  "duration": 30,
+  "n_mfcc": 13,
+  "n_chroma": 12,
+  "total_samples": 999,
+  "train_samples": 799,
+  "val_samples": 200
+}
